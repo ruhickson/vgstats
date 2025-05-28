@@ -1,0 +1,17 @@
+# R specific files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Configuration files with sensitive data
+config.R
+.env
+
+# Data files
+data/raw/*
+data/processed/*
+
+# Keep the data directories
+!data/raw/.gitkeep
+!data/processed/.gitkeep 
